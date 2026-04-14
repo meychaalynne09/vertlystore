@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>meychaalynne — vertlystore</title>
+  <link rel="shortcut icon" type="x-icon" href="meypict.jpg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="site-title">🌸 Meyyii's Place 🌸</div>
+        <nav aria-label="Main navigation">
+          <a href="#profile">Profile</a>
+          <a href="#info">About</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#music">Music</a>
+          <a href="#socials">Socials</a>
+        </nav>
+      </header>
+    
+      <main class="container" role="main">
+    
+        <!-- Profile -->
+        <section id="profile" class="profile" aria-labelledby="profile-heading">
+          <div class="profile-img" aria-hidden="false">
+            <!-- Ganti URL ini dengan foto profilmu, atau pake file lokal "profile.jpg" -->
+            <img src="foto/meypict.jpg" alt="Foto profil Meyyii">
+          </div>
+    
+          <div class="profile-text">
+            <h1 id="profile-heading">Hi, I'm Meyyii ₍^. .^₎⟆</h1>
+            <p>just a girl who loves . . . yOu ? no (ᵕ—ᴗ—) ✨</p>
+            <!-- small meta -->
+            <p style="margin-top:10px;color:var(--muted);font-size:0.95rem">
+              kinda pretty • not really beauty • fakerlysh number one
+            </p>
+          </div>
+        </section>
+
+        <!-- Info box -->
+        <section id="info" class="info-box" aria-labelledby="about-heading">
+          <h2 id="about-heading">About Me 🌷</h2>
+          <p>
+            do bad habits almost every day's my habit <br> ꉂ(˵˃ ᗜ ˂˵) ✨ <br>
+            i can't even describe meyself (╥﹏╥)
+          </p>
+        </section>
+    
+        <!-- Gallery -->
+        <section id="gallery" style="margin-top:1rem" aria-labelledby="gallery-heading">
+          <h3 class="section-title" id="gallery-heading"> entertainment sipaling feellone 📸</h3>
+          <div class="gallery" aria-hidden="false">
+            <!-- Ganti src berikut dengan link foto-foto kamu -->
+            <a href="kumpfotomey"><img src="foto/cover.jpg" alt="Foto aesthetic 1"></a>
+            <img src="foto/ml.jpg" alt="Foto aesthetic 2">
+            <img src="foto/222.jpg" alt="Foto aesthetic 3">
+            <img src="foto/ll.jpg" alt="Foto aesthetic 4">
+          </div>
+        </section>
+    
+        <!-- Music -->
+        <section id="music" class="music" aria-labelledby="music-heading">
+          <h3 id="music-heading" class="section-title">My Playlist 🎶</h3> 
+<!--
+        Ganti "lagu.mp3" dengan nama file mp3mu (letakkan di folder yang sama),
+        atau ganti <source> dengan link mp3 eksternal.
+      -->
+      <audio controls preload="none">
+        <source src="Justin Bieber - Ghost (1).mp3" type="audio/mpeg">
+        Browser kamu tidak mendukung audio.
+      </audio>
+      <p style="margin-top:8px;color:var(--muted);font-size:0.95rem">i listen this song every night >.< </p>
+    </section>
+<center>
+<button  onclick="location.href='index.html'" class="buybtn"><a class="backhome">kembali</a></button>
+<!-- <button  onclick="location.href='ind.html'" class="buybtn"><a class="backhome">Ownie</a></button> -->
+        <br>
+       <br>
+        </center>
+    <!-- Socials -->
+    <section id="socials" aria-labelledby="socials-heading" style="margin-top:1rem">
+      <h3 id="socials-heading" class="section-title">find me on : ✨</h3>
+      <div class="socials">
+        <!-- Ganti href dengan akunmu -->
+        <a class="social-btn" href="https://instagram.com/meychaalynne" target="_blank" rel="noopener noreferrer">
+          <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram logo"> Instagram
+        </a>
+
+        <a class="social-btn" href="https://wa.me/6285896606005?text=hi" target="_blank" rel="noopener noreferrer">
+          <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="Twitter logo"> WhatsApp
+        </a>
+
+        <a class="social-btn" href="https://tiktok.com/@meychaalynne" target="_blank" rel="noopener noreferrer">
+            <img src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png" alt="TikTok logo"> TikTok
+        </a>
+         <a class="social-btn" href="https://t.me/ouvertly" target="_blank" rel="noopener noreferrer">
+            <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="TikTok logo"> Telegram
+        </a>
+      </div>
+    </section>
+</main>
+
+<!-- Footer -->
+<footer>
+  © <span id="year"></span> Melisa iVertly
+</footer>
+
+<!-- ---------- Small JS ---------- -->
+<script>
+  // Auto-update year
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  // Optional: keyboard accessible skip to content (basic)
+  // You can add more JS if you want mobile nav toggle etc.
+</script>
+</body>
+</html>
+      
