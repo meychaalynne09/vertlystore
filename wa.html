@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" type="x-icon" href="foto/meypict.jpg">
+
+<title>WhatsApp - VertlyStore</title>
+
+<style>
+body{
+  margin:0;
+  font-family:sans-serif;
+  background:#ffe6f0;
+}
+.gamelogo{
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 20px;
+            border: 3px solid #ff99cc;
+            box-shadow: 0 0 15px pink;
+        }
+  h1{
+            margin-top: 1rem;
+            font-size: 1.8rem;
+            color: #ff66b3;
+        }
+ .containerr{
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+/* HEADER */
+.header{
+  background:#ff66a3;
+  padding:15px;
+  text-align:center;
+  color:white;
+  font-weight:bold;
+  font-size:18px;
+  border-bottom-left-radius:20px;
+  border-bottom-right-radius:20px;
+}
+
+/* SEARCH */
+.search-box{
+  margin:15px;
+}
+
+.search-box input{
+  width:100%;
+  padding:10px;
+  border:none;
+  border-radius:20px;
+  outline:none;
+}
+
+/* CONTAINER */
+.container{
+  padding:10px;
+}
+
+/* CARD */
+.card{
+  display:flex;
+  align-items:center;
+  background:white;
+  padding:10px;
+  border-radius:15px;
+  margin-bottom:10px;
+  box-shadow:0 3px 8px rgba(0,0,0,0.1);
+}
+
+/* IMAGE */
+.card img{
+  width:60px;
+  height:60px;
+  border-radius:12px;
+  margin-right:10px;
+}
+
+/* INFO */
+.info{
+  flex:1;
+}
+
+.title{
+  font-weight:bold;
+}
+
+.desc{
+  font-size:12px;
+  color:gray;
+}
+
+.price{
+  color:#ff3399;
+  font-weight:bold;
+}
+
+/* BUTTON */
+.btn{
+  background:#ff66a3;
+  color:white;
+  padding:6px 10px;
+  border:none;
+  border-radius:10px;
+  font-size:12px;
+  cursor:pointer;
+}
+
+/* RESPONSIVE */
+@media (max-width:480px){
+  .title{
+    font-size:14px;
+  }
+  .price{
+    font-size:13px;
+  }
+}
+
+ .buybtn{
+            background-color: #ff66b3;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            padding: 10px 20px;
+            margin-top: 2rem;
+            cursor: pointer;
+            font-size: 1rem;
+            transition:  all 0.2s;
+        }
+        .buybtn:hover{
+            background-color: #ff99cc;
+            box-shadow: 0 0 15px pink;
+        }
+</style>
+</head>
+
+<body>
+    <center>
+        <div class="containerr">
+            <img src="foto/wa.jpeg" alt="Mobile Legends" class="gamelogo"/>
+            <h1>WhatsApp </h1>
+        </center>
+
+<div class="container">
+
+  <div class="card">
+    <img src="foto/wa.jpeg">
+    <div class="info">
+      <div class="title">10 - Pengikut Saluran</div>
+      <div class="desc">tidak permanen tapi awet euy</div>
+      <div class="price">Rp 1.200</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="foto/wa.jpeg">
+    <div class="info">
+      <div class="title">20 - Pengikut Saluran</div>
+      <div class="desc">tidak permanen tapi awet euy</div>
+      <div class="price">Rp 2.400</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="foto/wa.jpeg">
+    <div class="info">
+      <div class="title">50 - Pengikut Saluran</div>
+      <div class="desc">tidak permanen tapi awet euy</div>
+      <div class="price">Rp 5.500</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="foto/wa.jpeg">
+    <div class="info">
+      <div class="title">100 - Pengikut Saluran</div>
+      <div class="desc">tidak permanen tapi awet euy</div>
+      <div class="price">Rp 10.000</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="foto/wa.jpeg">
+    <div class="info">
+      <div class="title">200 - Pengikut Saluran</div>
+      <div class="desc">tidak permanen tapi awet euy</div>
+      <div class="price">Rp 18.000</div>
+    </div>
+  </div>
+
+  
+  
+</div>
+<center>
+<button  onclick="location.href='pricelist.html'" class="buybtn"><a class="backhome">Kembali</a></button>
+</center>
+
+</body>
+</html>
